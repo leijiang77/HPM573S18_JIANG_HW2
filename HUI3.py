@@ -20,7 +20,7 @@ def get_score(vision,hearing,speech,dexterity,emotion,cognition,pain):
 
     :param vision:
     :param hearing:
-    :param speech:
+    :param speech:CARDIOMETABOLIC
     :param dexterity:
     :param emotion:
     :param cognition:
@@ -57,4 +57,4 @@ def get_score(vision,hearing,speech,dexterity,emotion,cognition,pain):
     return score
 
 #use function
-#print(get_score(1,2,5,1,1,1,1))
+print(get_score(1,2,5,1,1,1,1))
